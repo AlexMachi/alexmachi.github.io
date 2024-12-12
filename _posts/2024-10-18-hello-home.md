@@ -44,3 +44,5 @@ sudo apt update && sudo apt upgrade
 ## Photos
 
 ![img-description](https://avatars.githubusercontent.com/u/83443564?v=4)
+
+This is an updated version!
