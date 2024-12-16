@@ -1,9 +1,8 @@
 ---
-title: About
+# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
 
-> We can know only that we know nothing. And that is the highest degree of human wisdom.
-
-*Leo Tolstoy*
+> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip }
