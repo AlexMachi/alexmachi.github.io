@@ -1,0 +1,12 @@
+---
+layout: post
+title: 'The Endless Ascent: Committing to Muay Thai (2)'
+category: Muay Thai
+description: Limitations are part of the story, not reasons to stop.
+date: 2024-11-27 14:12 -0600
+---
+Heidegger introduces the concept of **"thrownness" (Geworfenheit)** - we are cast into a world not of our own choice, molded by circumstances beyond our control: our age, physical form, family responsibilities, and the societal expectations. These inescapable conditions form the foundation of our life, a starting point we must confront rather than escape. Simply put, limitations are part of our existence. According to Heidegger, authenticity emerges not by rejecting our thrownness but by responding to it deliberately, transforming these limitations into meaningful choices. It's through navigating these constraints that we become unique and find authenticity, living in alignment with our true interests, passions, and values rather than conforming to external pressures or societal expectations.
+
+Stepping into the martial art gym at 35 as a parent, provider, and physically untrained novice is my personal encounter with thrownness. Each creak of the floorboards and thud of fists meeting pads reminds me of both my limitations and aspirations. Yet these circumstances that seem restrictive, instead frame the contours of my unique journey. My age, physical limitations, and limited training time don't obstruct me; they ground me. My determination to commit to the journey regardless of limitations turns each strike into a triumph over doubt. The burn in my muscles become tangible proof of my resolve, while the sweat tracing paths down my skin symbolizes the shedding of insecurity. Every session transforms into a silent alchemy, turning the constraint into growth — carving resilience and purpose from the raw material of my life. If I were younger or free of responsibilities, training might feel routine, even mundane. Instead, navigating these challenges imbues every movement with significance; they are a deliberate and authentic encounter with myself and the world. 
+
+The sting of effort in my body, the rhythmic cadence of strikes, and the shared energy of the gym connect me to my body and the community around me. Each punch, kick, and step on the mat is an affirmation: This is how I choose to be. I choose to craft a story that only I can tell.
