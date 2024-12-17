@@ -1,5 +1,5 @@
 ---
-title: Active Directory Project Part 1
+title: Active Directory Project (Part 1)
 date: 2024-10-17 12:00:00 -500
 categories: [homelab, hardware]
 tags: [DrawIO,VirtualBox]
