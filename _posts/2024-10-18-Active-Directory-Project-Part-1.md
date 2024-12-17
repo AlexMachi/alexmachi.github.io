@@ -1,15 +1,15 @@
 ---
-title: Hello HomeLab
+title: Active Directory Project Part 1
 date: 2024-10-17 12:00:00 -500
 categories: [homelab, hardware]
-tags: [servers,dell,hp,supermicro]
+tags: [DrawIO,VirtualBox]
+image: 
+  path: /assets/img/title/drawIO-virtualbox.png
 ---
 
 # Welcome
 
-Hello and welcome to my homelab docs site!
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+I'll guide you through the steps of setting up an Active Directory (home lab) that includes Splunk, Kali Linux & Atomic Red Team. Explore how a domain environment works, learn how to ingest events to a SIEM and generate telemetry related to attacks seen in the wild to help you detect them in the future. If you are new to cybersecurity or IT, you don't want to miss out on this project.
 
 ## Hardware
 
