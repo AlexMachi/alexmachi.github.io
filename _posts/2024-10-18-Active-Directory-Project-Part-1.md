@@ -9,33 +9,35 @@ image:
 
 ## Active Directory Project Overview
 ---
-In this guide, we will walk through the steps to set up a homelab that includes an Active Directory, a domain user, a Splunk server, and an attacker machine using Kali Linux.
+In this guide, we will walk through the steps to set up a homelab that includes an Active Directory, a domain user, a Splunk server, and a penetration testing system using Kali Linux.
 
 We will explore the workings of a domain environment by configuring a domain controller, adding a domain user, and creating group policies. Additionally, we will simulate a brute-force attack to generate telemetry, which will be ingested and analyzed using Splunk and Sysmon.
 
 This setup will be achieved on a single Windows computer by utilizing VirtualBox to create a virtual environment for the homelab.
 
-**Hardware Requirements:**
-
+## Hardware Requirements
+---
 * Windows OS
 * 16GB RAM
 * 256GB Disk Space
 
-## Part 1 Objectives
+## Active Directory Project (Part 1) Objectives
 ---
-1. Create a network diagram using draw.io.
+1. Create a network diagram using [draw.io](https://app.diagrams.net/).
 
 2. Set up VirtualBox and install the following operating systems: Windows Server 2022, Windows 10, Ubuntu, and Kali Linux.
 
 ## 1. Create a network diagram
 ---
-Creating a network diagram helps us visualize how data flows through the network. It also supports organizing and documenting network information, such as IP addresses.
+A network diagram helps us visualize how data flows through the network and supports the organization and documentation of network information, such as IP addresses.
 
 ![NetworkDiagram](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg)
-_Network diagram using draw.io._
+_Network diagram created using draw.io._
 
-## 2. Set up VirtualBox and install operating systems
+## 2. Set up VirtualBox and install the required operating systems
 ---
+Download and install VirtualBox from Oracle's website. 
+
 ### Windows Server 2022:
 
 ### Windows 10:
