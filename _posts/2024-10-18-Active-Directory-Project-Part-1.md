@@ -7,7 +7,7 @@ image:
   path: /assets/img/title/drawIO-virtualbox.png
 ---
 
-## Active Directory Project Overview
+## <u>Active Directory Project Overview:</u>
 
 In this guide, we will walk through the steps to set up a homelab that includes an Active Directory, a domain user, a Splunk server, and a penetration testing system using Kali Linux.
 
@@ -22,7 +22,6 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 * 256GB Disk Space
 
 ---
-
 ## Active Directory Project (Part 1) Objectives
 ---
 1\. Create a network diagram.
