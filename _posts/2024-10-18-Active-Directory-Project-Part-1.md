@@ -36,7 +36,10 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 ---
 ![Network Diagram](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50 .right}
 
-A network diagram helps us visualize how data flows through the network. It also supports organizing and documenting network information, such as IP addresses and software distribution. The following network diagram was created in [draw.io](https://app.diagrams.net/){:target="_blank"}.<br>
+A network diagram helps us visualize how data flows through the network. It also supports organizing and documenting network information, such as IP addresses and software distribution. The following network diagram was created in [draw.io](https://app.diagrams.net/){:target="_blank"}.
+<br>
+<br>
+<br>
 
 ## 2. Set up VirtualBox and install the required operating systems
 ---
