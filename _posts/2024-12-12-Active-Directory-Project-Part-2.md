@@ -48,3 +48,32 @@ sudo apt update && sudo apt upgrade
 This is an updated version!
 
 Additional page for test!
+
+
+
+```javascript
+console.log('hello world!');
+```
+
+```yml
+name: 'push-remote'
+
+on:
+    push:
+            branches:
+                - master
+            paths-ignore:
+                - .gitignore
+                - README.md
+                - LICENSE
+```
+
+```bash
+sudo apt update && sudo apt upgrade
+```
+
+## Photos
+
+![img-description](https://avatars.githubusercontent.com/u/83443564?v=4)
+
+This is an updated version!
