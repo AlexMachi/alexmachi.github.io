@@ -2,7 +2,7 @@
 title: Active Directory Project (Part 1)
 date: 2024-10-17 12:00:00 -500
 categories: [homelab, hardware]
-tags: [draw.io,VirtualBox,Windows Server 2020,Windows 10,Ubuntu,Kali Linux]
+tags: [draw.io,virtualbox,windows server 2020,windows 10,ubuntu,kali linux]
 image: 
   path: /assets/img/title/drawIO-virtualbox.png
 ---
@@ -34,9 +34,10 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 
 ## 1. Create a network diagram
 ---
-A network diagram helps us visualize how data flows through the network and supports the organization and documentation of network information, such as IP addresses.
+A network diagram helps us visualize how data flows through the network. It also supports organizing and documenting network information, such as IP addresses and software distribution.
 
 ![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50 .right}
+_Network diagram created in draw.io._
 
 ![NetworkDiagram](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg)
 _Network diagram created in draw.io._
