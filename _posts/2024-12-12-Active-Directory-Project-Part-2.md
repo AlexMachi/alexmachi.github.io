@@ -2,16 +2,16 @@
 title: Active Directory Project (Part 2)
 date: 2024-10-17 12:00:00 -500
 categories: [homelab, hardware]
-tags: [Splunk,Sysmon]
+tags: [splunk,sysmon]
 image:
     path: /assets/img/title/splunk-sysmon.png
 ---
 
 ## Part 2 Objectives
 ---
-**1. Install Splunk Server onto Ubuntu.**
+1\. Install Splunk Server onto Ubuntu.
 
-**2. Install Sysmon to Windows Server 2022 and Windows 10.**
+2\. Install Sysmon to Windows Server 2022 and Windows 10.
 
 ## Hardware
 
