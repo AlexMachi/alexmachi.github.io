@@ -23,14 +23,14 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 
 ## Active Directory Project (Part 1) Objectives
 ---
-1. Create a network diagram using [draw.io](https://app.diagrams.net/).
+**1. Create a network diagram using [draw.io](https://app.diagrams.net/).**
 
-2. Set up VirtualBox and install the following operating systems: 
+**2. Set up VirtualBox and install the following operating systems:**
 
-    * Windows Server 2022
-    * Windows 10
-    * Ubuntu
-    * Kali Linux
+* Windows Server 2022
+* Windows 10
+* Ubuntu
+* Kali Linux
 
 ## 1. Create a network diagram
 ---

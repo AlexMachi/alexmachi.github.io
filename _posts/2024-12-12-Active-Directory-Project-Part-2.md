@@ -9,9 +9,9 @@ image:
 
 ## Part 2 Objectives
 ---
-1. Install Splunk Server onto Ubuntu.
+**1. Install Splunk Server onto Ubuntu.**
 
-2. Install Sysmon to Windows Server 2022 and Windows 10.
+**2. Install Sysmon to Windows Server 2022 and Windows 10.**
 
 ## Hardware
 
