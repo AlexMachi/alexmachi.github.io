@@ -11,12 +11,12 @@ image:
 ---
 In this guide, we will walk through the steps to set up a homelab that includes an Active Directory, a domain user, a Splunk server, and a penetration testing system using Kali Linux.
 
-We will explore the workings of a domain environment by configuring a domain controller, adding a domain user, and creating group policies. Additionally, we will simulate a brute-force attack to generate telemetry, which will be ingested and analyzed using Splunk and Sysmon.
+We will explore the workings of a domain environment by configuring a domain controller, adding a domain user, and creating group policies. Additionally, we will simulate a brute-force attack to generate telemetry, which will be ingested and analyzed using Sysmon and Splunk.
 
 This setup will be achieved on a single Windows computer by utilizing VirtualBox to create a virtual environment for the homelab.
 
-## Hardware Requirements
----
+**Hardware Requirements:**
+
 * Windows OS
 * 16GB RAM
 * 256GB Disk Space
@@ -32,7 +32,7 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 A network diagram helps us visualize how data flows through the network and supports the organization and documentation of network information, such as IP addresses.
 
 ![NetworkDiagram](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg)
-_Network diagram created using draw.io._
+_Network diagram created in draw.io._
 
 ## 2. Set up VirtualBox and install the required operating systems
 ---
