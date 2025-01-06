@@ -2,7 +2,7 @@
 title: Active Directory Project (Part 1)
 date: 2024-10-17 12:00:00 -500
 categories: [homelab, hardware]
-tags: [draw.io,virtualbox,windows server 2020,windows 10,ubuntu,kali linux]
+tags: [draw.io,virtualbox,windows server 2020,windows 10,ubuntu server,kali linux]
 image: 
   path: /assets/img/title/drawIO-virtualbox.png
 ---
@@ -29,7 +29,7 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 
 * Windows Server 2022
 * Windows 10
-* Ubuntu
+* Ubuntu Server
 * Kali Linux
 
 ## 1. Create a network diagram
@@ -40,10 +40,15 @@ A network diagram helps us visualize how data flows through the network. It also
 <br>
 <br>
 <br>
+<br>
 
 ## 2. Set up VirtualBox and install the required operating systems
 ---
-Download and install VirtualBox from Oracle's website. 
+Download VirtualBox for Windows hosts from Oracle's website. 
+
+```powershell
+C:\Users\username\Downloads> Get-FileHash .\VirtualBox-version-win.exe
+```
 
 ### Windows Server 2022:
 
