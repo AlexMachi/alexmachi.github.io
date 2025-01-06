@@ -40,10 +40,12 @@ A network diagram helps us visualize how data flows through the network. It also
 
 ![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50}
 
+![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: .w-50}
+
 
 ## 2. Set up VirtualBox and install the required operating systems
 ---
-Download VirtualBox for Windows hosts from Oracle's website. 
+We will now download VirtualBox for Windows hosts from Oracle's website. We can verify the VirtualBox installer by comparing the SHA256 hashes
 
 ```powershell
 C:\Users\username\Downloads> Get-FileHash .\VirtualBox-version-win.exe
@@ -53,6 +55,6 @@ C:\Users\username\Downloads> Get-FileHash .\VirtualBox-version-win.exe
 
 ### Windows 10:
 
-### Ubuntu:
+### Ubuntu Server:
 
 ### Kali Linux:
