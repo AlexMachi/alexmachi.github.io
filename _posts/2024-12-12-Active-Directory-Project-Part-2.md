@@ -7,9 +7,11 @@ image:
     path: /assets/img/title/splunk-sysmon.png
 ---
 
-# Welcome
+## Part 2 Objectives
+---
+1. Install Splunk Server onto Ubuntu.
 
-Install splunk and sysmon
+2. Install Sysmon to Windows Server 2022 and Windows 10.
 
 ## Hardware
 
