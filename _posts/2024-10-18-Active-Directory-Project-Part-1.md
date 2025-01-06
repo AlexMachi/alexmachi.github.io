@@ -7,6 +7,7 @@ image:
   path: /assets/img/title/drawIO-virtualbox.png
 ---
 
+
 ## Active Directory Project Overview
 ---
 In this guide, we will walk through the steps to set up a homelab that includes an Active Directory, a domain user, a Splunk server, and a penetration testing system using Kali Linux.
@@ -38,17 +39,15 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 ---
 A network diagram helps us visualize how data flows through the network. It also supports organizing and documenting network information, such as IP addresses and software distribution. The following network diagram was created in [draw.io](https://app.diagrams.net/){:target="_blank"}.
 
-![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50}
-
-![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: .w-50}
+![Network Diagram](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50}
 
 
 ## 2. Set up VirtualBox and install the required operating systems
 ---
-We will now download VirtualBox for Windows hosts from Oracle's website. We can verify the VirtualBox installer by comparing the SHA256 hashes
+We will now download VirtualBox for Windows hosts from Oracle's website. To ensure the downloaded file has not been altered, we will verify it by comparing the SHA256 checksum provided by Oracle with the SHA256 hash of the downloaded file generated on our system using PowerShell.
 
 ```powershell
-C:\Users\username\Downloads> Get-FileHash .\VirtualBox-version-win.exe
+C:\Users\User\Downloads> Get-FileHash .\VirtualBox-7.1.4-165100-Win.exe
 ```
 
 ### Windows Server 2022:
