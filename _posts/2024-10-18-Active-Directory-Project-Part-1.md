@@ -36,8 +36,7 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 ---
 A network diagram helps us visualize how data flows through the network and supports the organization and documentation of network information, such as IP addresses.
 
-![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50 .left}
-
+![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50 .right}
 
 ![NetworkDiagram](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg)
 _Network diagram created in draw.io._
