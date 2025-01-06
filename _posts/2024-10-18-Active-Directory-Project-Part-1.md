@@ -25,7 +25,12 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 ---
 1. Create a network diagram using [draw.io](https://app.diagrams.net/).
 
-2. Set up VirtualBox and install the following operating systems: Windows Server 2022, Windows 10, Ubuntu, and Kali Linux.
+2. Set up VirtualBox and install the following operating systems: 
+
+    * Windows Server 2022
+    * Windows 10
+    * Ubuntu
+    * Kali Linux
 
 ## 1. Create a network diagram
 ---
