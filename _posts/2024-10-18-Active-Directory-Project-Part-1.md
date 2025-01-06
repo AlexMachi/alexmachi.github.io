@@ -20,7 +20,7 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 * Windows OS
 * 16GB RAM
 * 256GB Disk Space
----
+
 
 ## Active Directory Project (Part 1) Objectives
 ---
@@ -32,14 +32,14 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 * Windows 10
 * Ubuntu Server
 * Kali Linux
----
+
 
 ## 1. Create a network diagram
 ---
 A network diagram helps us visualize how data flows through the network. It also supports organizing and documenting network information, such as IP addresses and software distribution. The following network diagram was created in [draw.io](https://app.diagrams.net/){:target="_blank"}.
 
 ![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50}
----
+
 
 ## 2. Set up VirtualBox and install the required operating systems
 ---
@@ -56,4 +56,3 @@ C:\Users\username\Downloads> Get-FileHash .\VirtualBox-version-win.exe
 ### Ubuntu:
 
 ### Kali Linux:
----
