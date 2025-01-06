@@ -23,9 +23,9 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 
 ## Active Directory Project (Part 1) Objectives
 ---
-**1. Create a network diagram using [draw.io](https://app.diagrams.net/).**
+1\. Create a network diagram using [draw.io](https://app.diagrams.net/){:target="_blank"}.
 
-**2. Set up VirtualBox and install the following operating systems:**
+2\. Set up VirtualBox and install the following operating systems:
 
 * Windows Server 2022
 * Windows 10
@@ -35,6 +35,9 @@ This setup will be achieved on a single Windows computer by utilizing VirtualBox
 ## 1. Create a network diagram
 ---
 A network diagram helps us visualize how data flows through the network and supports the organization and documentation of network information, such as IP addresses.
+
+![Desktop View](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg){: width="972" height="589" .w-50 .left}
+
 
 ![NetworkDiagram](/assets/img/2024-10-18-Active-Directory-Project-Part-1/NetworkDiagram.jpg)
 _Network diagram created in draw.io._
