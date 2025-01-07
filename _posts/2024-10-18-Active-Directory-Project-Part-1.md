@@ -44,11 +44,13 @@ A network diagram helps us visualize how data flows through the network. It also
 
 ## 2. Set up VirtualBox and install the required operating systems
 ---
-We will now download VirtualBox for Windows hosts from Oracle's website. To ensure the downloaded file has not been altered, we will verify it by comparing the SHA256 checksum provided by Oracle with the SHA256 hash of the downloaded file generated on our system using PowerShell.
+We will now download the VirtualBox installer for Windows hosts from [Oracle's website](https://www.virtualbox.org/){:target="_blank"}. To ensure the installer has not been tampered with, we will verify its integrity by comparing the SHA256 checksum provided by Oracle with the SHA256 hash generated locally on our system using PowerShell.
 
 ```powershell
 C:\Users\User\Downloads> Get-FileHash .\VirtualBox-7.1.4-165100-Win.exe
 ```
+
+![Checksum](/assets/img/2024-10-18-Active-Directory-Project-Part-1/Checksum.jpg){: width="972" height="589" .w-50}
 
 ### Windows Server 2022:
 
