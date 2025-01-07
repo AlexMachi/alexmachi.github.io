@@ -44,7 +44,7 @@ A network diagram helps us visualize how data flows through the network. It also
 
 ## 2. Set up VirtualBox and install the required operating systems
 ---
-We will now download the VirtualBox installer for Windows hosts from [Oracle's website](https://www.virtualbox.org/){:target="_blank"}. To ensure the downloaded installer has not been altered, we will verify its integrity by comparing the SHA256 checksum provided by Oracle with the SHA256 hash of the installer generated on our local system using PowerShell.
+Download the VirtualBox installer for Windows hosts from [Oracle's official website](https://www.virtualbox.org/){:target="_blank"}. To ensure the downloaded installer has not been altered, we will verify its integrity by comparing the SHA256 checksum provided by Oracle with the SHA256 hash of the installer generated on our local system using PowerShell.
 
 ```powershell
 C:\Users\User\Downloads> Get-FileHash .\VirtualBox-7.1.4-165100-Win.exe
@@ -52,12 +52,12 @@ C:\Users\User\Downloads> Get-FileHash .\VirtualBox-7.1.4-165100-Win.exe
 
 ![Checksum](/assets/img/2024-10-18-Active-Directory-Project-Part-1/Checksum.jpg){: width="972" height="589" .w-50}
 
-We will proceed with the VirtualBox installation by running the installer. The setup may prompt you to download any necessary software dependencies required by VirtualBox. After installing these dependencies, you can continue with the default settings to complete the installation. Once you click the 'Finish' button, VirtualBox should launch automatically.
+Proceed with the VirtualBox installation by running the installer. The setup may prompt us to download any necessary software dependencies required by VirtualBox. After installing these dependencies, we can continue with the default settings to complete the installation. Once we click the 'Finish' button, VirtualBox should launch automatically.
 
 ### Windows Server 2022:
 
 ### Windows 10:
-We will first download Windows 10 media creation tool from Microsoft's website. The media creation tool will allow us to create a Windows 10 ISO image file in order for us to install it on our virtual machine inside of VirtualBox.
+Download the Windows 10 Media Creation Tool from Microsoft's official website. This tool will create a Windows 10 ISO image file, which can be used to install Windows 10 on a virtual machine within VirtualBox.
 
 
 
