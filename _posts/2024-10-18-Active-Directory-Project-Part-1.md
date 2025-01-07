@@ -57,10 +57,12 @@ Proceed with the VirtualBox installation by running the installer. The setup may
 ### Windows Server 2022:
 
 ### Windows 10:
-Download the Windows 10 Media Creation Tool from Microsoft's official website. This tool will create a Windows 10 ISO image file, which can be used to install Windows 10 on a virtual machine within VirtualBox.
+Download the Windows 10 Media Creation Tool from [Microsoft's official website](https://www.microsoft.com/en-ca/software-download/windows10/){:target="_blank"}. This tool will create a Windows 10 ISO image file, which can be used to install Windows 10 on a virtual machine within VirtualBox.
 
 
 
 ### Ubuntu Server:
 
 ### Kali Linux:
+
+
