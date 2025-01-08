@@ -54,15 +54,30 @@ C:\Users\User\Downloads> Get-FileHash .\VirtualBox-7.1.4-165100-Win.exe
 
 Proceed with the VirtualBox installation by running the installer. The setup may prompt us to download any necessary software dependencies required by VirtualBox. After installing these dependencies, we can continue with the default settings to complete the installation. Once we click the 'Finish' button, VirtualBox should launch automatically.
 
-### Windows Server 2022:
-
 ### Windows 10:
 Download the Windows 10 Media Creation Tool from [Microsoft's official website](https://www.microsoft.com/en-ca/software-download/windows10/){:target="_blank"}. This tool will create a Windows 10 ISO image file, which can be used to install Windows 10 on a virtual machine within VirtualBox.
+
+Run the Windows 10 Media Creation Tool and follow the setup.
+
+What do you want to do?
+: Create installation media (USB flash drive, DVD, or ISO file) for another PC
+
+Select language, architecture, and edition
+: Use the recommended options for this PC
+
+Choose which media to use
+: ISO file
+
+
+### Kali Linux:
+
+### Windows Server 2022:
+
 
 
 
 ### Ubuntu Server:
 
-### Kali Linux:
+
 
 
