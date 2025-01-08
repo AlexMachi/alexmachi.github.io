@@ -57,17 +57,18 @@ Proceed with the VirtualBox installation by running the installer. The setup may
 ### Windows 10:
 Download the Windows 10 Media Creation Tool from [Microsoft's official website](https://www.microsoft.com/en-ca/software-download/windows10/){:target="_blank"}. This tool will create a Windows 10 ISO image file, which can be used to install Windows 10 on a virtual machine within VirtualBox.
 
-Run the Windows 10 Media Creation Tool and follow the setup.
+Run the Windows 10 Media Creation Tool and follow the setup process. During the setup, you will be prompted to make the following selections:
 
-What do you want to do?
-: Create installation media (USB flash drive, DVD, or ISO file) for another PC
+1\. What do you want to do?
+* **Create installation media (USB flash drive, DVD, or ISO file) for another PC.**
 
-Select language, architecture, and edition
-: Use the recommended options for this PC
+2\. Select language, architecture, and edition.
+* **Use the recommended options for this PC.**
 
-Choose which media to use
-: ISO file
+3\. Choose which media to use.
+* **ISO file.**
 
+With the Windows 10 ISO image file now created and saved on our system, we will open VirtualBox and click 'New' to begin configuring our Windows 10 virtual machine.
 
 ### Kali Linux:
 
