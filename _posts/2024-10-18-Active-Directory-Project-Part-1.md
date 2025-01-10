@@ -54,6 +54,8 @@ C:\Users\User\Downloads> Get-FileHash .\VirtualBox-7.1.4-165100-Win.exe
 
 Proceed with the VirtualBox installation by running the installer. The setup may prompt us to download any necessary software dependencies required by VirtualBox. After installing these dependencies, we can continue with the default settings to complete the installation. Once we click the 'Finish' button, VirtualBox should launch automatically.
 
+![VM_001](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_001.jpg){: width="972" height="589" .w-50}
+
 ### Windows 10:
 Download the Windows 10 Media Creation Tool from [Microsoft's official website](https://www.microsoft.com/en-ca/software-download/windows10/){:target="_blank"}. This tool will create a Windows 10 ISO image file, which can be used to install Windows 10 on a virtual machine within VirtualBox.
 
@@ -68,7 +70,22 @@ Run the Windows 10 Media Creation Tool and follow the setup process. During the 
 3\. Choose which media to use.
 * **ISO file.**
 
+![Win10 ISO](/assets/img/2024-10-18-Active-Directory-Project-Part-1/WindowsISO.jpg){: width="972" height="589" .w-50}
+
 With the Windows 10 ISO image file now created and saved on our system, we will open VirtualBox and click 'New' to begin configuring our Windows 10 virtual machine.
+
+![VM_W10_001](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_001.jpg){: width="972" height="589" .w-50}
+
+Virtual Machine installation will require configuration settings:
+* 4GB RAM
+* 1 CPU Core
+* 50GB Disk Space
+
+![VM_W10_002](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_002.jpg){: width="972" height="589" .w-50}
+
+Once we set up the configuration for the virtual machine, we are ready to start the virtual machine by clicking the start icon.
+
+![VM_W10_003](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_003.jpg){: width="972" height="589" .w-50}
 
 ### Kali Linux:
 
