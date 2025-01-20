@@ -7,7 +7,7 @@ image:
     path: /assets/img/title/splunk-sysmon.png
 ---
 
-# Work in Progress
+# Work in progress
 
 ## Part 2 Objectives
 ---
@@ -44,9 +44,6 @@ on:
 ```bash
 sudo apt update && sudo apt upgrade
 ```
-
-
-
 ```javascript
 console.log('hello world!');
 ```
@@ -72,4 +69,4 @@ sudo apt update && sudo apt upgrade
 
 ![img-description](https://avatars.githubusercontent.com/u/83443564?v=4)
 
-This is an updated version!
+This is a test page.
