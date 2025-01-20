@@ -7,6 +7,8 @@ image:
     path: /assets/img/title/splunk-sysmon.png
 ---
 
+# Work in Progress
+
 ## Part 2 Objectives
 ---
 1\. Install Splunk Server onto Ubuntu.
@@ -43,14 +45,6 @@ on:
 sudo apt update && sudo apt upgrade
 ```
 
-## Photos
-
-![test](/assets/img/2024-12-12-Home-test/Corgi3.jpg)
-
-This is an updated version!
-
-Additional page for test!
-
 
 
 ```javascript
@@ -78,4 +72,4 @@ sudo apt update && sudo apt upgrade
 
 ![img-description](https://avatars.githubusercontent.com/u/83443564?v=4)
 
-This is an updated version!
+This is a test page.
