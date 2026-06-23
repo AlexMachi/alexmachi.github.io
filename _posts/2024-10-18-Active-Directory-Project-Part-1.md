@@ -10,7 +10,7 @@ image:
 
 ## Active Directory Project Overview
 ---
-In this guide, we will walk through the steps to set up a homelab that includes an Active Directory, a domain user, a Splunk server, and a penetration testing system using Kali Linux.
+In this project, we will set up a homelab that includes an Active Directory, a domain user, a Splunk server, and a penetration testing system using Kali Linux.
 
 We will explore the workings of a domain environment by configuring a domain controller, adding a domain user, and creating group policies. Additionally, we will simulate a brute-force attack to generate telemetry, which will be ingested and analyzed using Sysmon and Splunk.
 
