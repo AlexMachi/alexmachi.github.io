@@ -76,10 +76,13 @@ With the Windows 10 ISO image file now created and saved on our system, we will 
 
 ![VM_W10_001](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_001.jpg){: width="972" height="589" .w-50}
 
-Virtual Machine installation will require configuration settings:
-* 4GB RAM
-* 1 CPU Core
-* 50GB Disk Space
+Virtual Machine will require Windows 10 configuration settings. Depending on the system's available resources, we will adjust the amount of RAM, number of CPU cores, and disk space allocated to the virtual machine. 
+
+Below is the minimum requirement for a Windows 10 system:
+
+* 4GB RAM (minimum)
+* 1CPU Core (minimum)
+* 50GB Disk Space (minimum)
 
 ![VM_W10_002](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_002.jpg){: width="972" height="589" .w-50}
 
@@ -87,11 +90,17 @@ Once we set up the configuration for the virtual machine, we are ready to start 
 
 ![VM_W10_003](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_003.jpg){: width="972" height="589" .w-50}
 
+Once the Virtual Machine starts, the Windows 10 installation screen will appear. We will proceed with the installation process. After Windows 10 has been installed, the set up will prompt us to create a user account and password. Once the account has been created, we will be taken to the sign-in screen, where we can sign in using the credentials we created.
+
+![Windows_Sign-On](/assets/img/2024-10-18-Active-Directory-Project-Part-1/Windows_Sign-On.jpg){: width="972" height="589" .w-50}
+
+
 ### Kali Linux:
+Fill here.
+
 
 ### Windows Server 2022:
 Fill here.
-
 
 
 ### Ubuntu Server:
