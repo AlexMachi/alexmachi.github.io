@@ -111,11 +111,19 @@ Start the Kali Linux VM to access the sign-in screen. The default username is ka
 ![Kali_Sign-On](/assets/img/2024-10-18-Active-Directory-Project-Part-1/Kali_Sign-On.jpg){: width="972" height="589" .w-50}
 
 ### Windows Server 2022:
-Fill here.
+Download the Windows Server 2022 ISO from [Microsoft's official website](https://info.microsoft.com/ww-landing-windows-server-2022.html){:target="_blank"}. We will be required to register before downloading the ISO file.
 
+The Windows Server 2022 VM setup process is similar to the Windows 10 VM process. Depending on the available resources of the host system, we can adjust the amount of RAM, number of CPU cores, and disk space assigned to the VM.
+
+![VM_WS_001](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_WS_001.jpg){: width="972" height="589" .w-50}
+
+After starting the VM, the Windows Server 2022 installation screen will appear. Proceed with the installation process and select Windows Server 2022 Standard Evaluation (Desktop Experience) when prompted. Once the installation is complete, the set up will prompt us to create a password for the Administrator account. The setup will then take us to the sign-in screen, where we can sign in to the administrator account using the password we created.
+
+![VM_WS_Sign-On](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_WS_Sign-On.jpg){: width="972" height="589" .w-50}
 
 ### Ubuntu Server:
 
 
 
 
+ 
