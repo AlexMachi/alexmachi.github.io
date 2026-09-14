@@ -57,7 +57,7 @@ Proceed with the VirtualBox installation by running the installer. The setup may
 ![VM_001](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_001.jpg){: width="972" height="589" .w-50}
 
 ### Windows 10:
-Download the Windows 10 Media Creation Tool from [Microsoft's official website](https://www.microsoft.com/en-ca/software-download/windows10/){:target="_blank"}. This tool will create a Windows 10 ISO image file, which can be used to install Windows 10 on a virtual machine within VirtualBox.
+Download the Windows 10 Media Creation Tool from [Microsoft's official website](https://www.microsoft.com/en-ca/software-download/windows10/){:target="_blank"}. This tool will create a Windows 10 ISO image file, which can be used to install Windows 10 as a virtual machine (VM) within VirtualBox.
 
 Run the Windows 10 Media Creation Tool and follow the setup process. During the setup, you will be prompted to make the following selections:
 
@@ -72,13 +72,13 @@ Run the Windows 10 Media Creation Tool and follow the setup process. During the 
 
 ![Win10 ISO](/assets/img/2024-10-18-Active-Directory-Project-Part-1/WindowsISO.jpg){: width="972" height="589" .w-50}
 
-With the Windows 10 ISO image file now created and saved on our system, we will open VirtualBox and click 'New' to begin configuring our Windows 10 virtual machine.
+With the Windows 10 ISO image file now created and saved on our system, we will open VirtualBox and click 'New' to begin configuring our Windows 10 VM.
 
 ![VM_W10_001](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_001.jpg){: width="972" height="589" .w-50}
 
-Virtual Machine will require Windows 10 configuration settings. Depending on the system's available resources, we will adjust the amount of RAM, number of CPU cores, and disk space allocated to the virtual machine. 
+VirtualBox will require us to allocate system resources to the Windows 10 VM. Depending on the available resources of the host system, we can adjust the amount of RAM, number of CPU cores, and disk space assigned to the VM.
 
-Below is the minimum requirement for a Windows 10 system:
+Below are the minimum requirements for Windows 10:
 
 * 4GB RAM (minimum)
 * 1CPU Core (minimum)
@@ -86,18 +86,29 @@ Below is the minimum requirement for a Windows 10 system:
 
 ![VM_W10_002](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_002.jpg){: width="972" height="589" .w-50}
 
-Once we set up the configuration for the virtual machine, we are ready to start the virtual machine by clicking the start icon.
+With the Windows 10 VM configured, we are ready to start the VM by clicking the start icon.
 
 ![VM_W10_003](/assets/img/2024-10-18-Active-Directory-Project-Part-1/VM_W10_003.jpg){: width="972" height="589" .w-50}
 
-Once the Virtual Machine starts, the Windows 10 installation screen will appear. We will proceed with the installation process. After Windows 10 has been installed, the set up will prompt us to create a user account and password. Once the account has been created, we will be taken to the sign-in screen, where we can sign in using the credentials we created.
+Once the VM starts, the Windows 10 installation screen will appear. We will proceed with the installation process and select Windows 10 Pro when prompted. After Windows 10 has been installed, the set up will prompt us to create a user account and password. The setup will then take us to the sign-in screen, where we can sign in using the credentials we created.
 
 ![Windows_Sign-On](/assets/img/2024-10-18-Active-Directory-Project-Part-1/Windows_Sign-On.jpg){: width="972" height="589" .w-50}
 
 
 ### Kali Linux:
-Fill here.
+Download the Pre-built VMs for VirtualBox from [Kali Linux's official website](https://www.kali.org/){:target="_blank"}. Unlike the Windows 10 ISO file, which requires the user to go through the installation process, Kali Linux’s pre-built VMs can be imported directly into VirtualBox. This allows us to skip the installation process and start using Kali Linux immediately after the VM is imported.
 
+![Kali_Download](/assets/img/2024-10-18-Active-Directory-Project-Part-1/Kali_Download.jpg){: width="972" height="589" .w-50}
+
+Importing Kali Linux to VirtualBox is simple. Extract the downloaded Kali Linux ZIP file, then double-click the .vbox file. VirtualBox will open and automatically import the Kali Linux VM. 
+
+Select Kali Linux VM in VirtualBox to view its configuration settings. From here, we can adjust the resources allocated to the VM. In this example, we allocated 8GB of RAM. However, Linux generally requires fewer resources than Windows, so the default allocation is typically sufficient to run Kali Linux.
+
+![Kali_Import](/assets/img/2024-10-18-Active-Directory-Project-Part-1/Kali_Import.jpg){: width="972" height="589" .w-50}
+
+Start the Kali Linux VM to access the sign-in screen. The default username is kali and password is also kali.
+
+![Kali_Sign-On](/assets/img/2024-10-18-Active-Directory-Project-Part-1/Kali_Sign-On.jpg){: width="972" height="589" .w-50}
 
 ### Windows Server 2022:
 Fill here.
